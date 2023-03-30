@@ -1,0 +1,216 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: fontfamily;
+    src: url(/ThinDesign.otf);
+}
+
+#top-container {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: start; */
+    flex-direction: column;
+    float: left;
+    background-color: rgba(169, 169, 169, 0.355);
+}
+
+.top1 img {
+    width: 40px;
+    height: 40px;
+    margin: 6px 14px 470px 9px;
+}
+
+.top2 {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.top2 img {
+    margin: 16px 14px 0px 17px;
+    width: 25px;
+    height: 25px;
+}
+
+#navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 255, 98, 0.154);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 14px 5px;
+
+}
+
+.navbar ul a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 3px 18px;
+}
+
+.navbar ul a:hover {
+    color: red;
+    background-color: rgba(245, 245, 245, 0.753);
+    border-radius: 4px;
+}
+
+.navbar-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-button button {
+    margin: 7px;
+    padding: 3px 8px;
+    color: red;
+    border-radius: 6px;
+}
+
+.navbar-button button a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-button div {
+    margin: 8px;
+    padding: 4px 7px;
+}
+
+#heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin: 125px 250px;
+}
+
+.heading {
+    margin: 7px 12px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: fontfamily;
+}
+
+#heading-container button {
+    padding: 6px;
+    /* margin: 25px 0px 12px 11px; */
+    background-color: rgba(149, 48, 48, 0.796);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+
+}
+
+#heading-container button a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;
+    /* margin: 25px 0px 12px 11px; */
+
+
+
+}
+
+#heading-container::before {
+    content: "";
+    content: "";
+    position: absolute;
+    background: url("/images/Untitled\ design9108.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 100%;
+    top: 14%;
+    z-index: -1;
+    opacity: 0.90;
+
+
+}
+
+@media screen and (max-width:600px) {
+
+
+
+
+    #top-container {
+        background: none;
+        line-height: normal;
+        
+
+    }
+    #navbar-container{
+        display: block;
+        background-color: white;
+        
+    }
+    .navbar-button{
+        display: none;
+    }
+
+    .navbar ul {
+        margin: 7px 0px;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.5rem;
+    
+    }
+    
+    .navbar ul a {
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+        padding: 3px 18px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .heading {
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 180px;
+        font-weight: bolder;
+        font-size: 22px;
+        /* font-family: fontfamily; */
+
+    }
+
+    .top1 img {
+        margin: 5px 6px 0px 5px;
+        border-radius: 50%;
+        border: 1px solid darkgray;
+        background-color: white;
+    }
+
+
+    .top2 {
+        display: none;
+        float: right;
+    }
+
+}

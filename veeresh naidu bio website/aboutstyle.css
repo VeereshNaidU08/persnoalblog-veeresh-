@@ -1,0 +1,54 @@
+* {
+    padding: 0%;
+    margin: 0%
+}
+@font-face {
+    font-family: personalfont;
+    src: url(/breviel-amore.regular.ttf);
+}
+
+body {
+    background-color: black;
+
+
+}
+body button{ 
+    padding: 6px 24px;
+    margin: 10px 15px;
+    border-radius: 9px;
+    background-color: darkgray;
+
+}
+body button a{
+    text-decoration: none;
+    color: black;
+    font-family: personalfont;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top1 img {
+    width: 45rem;
+    height: 45rem;
+}
+
+.top2 {
+    color: white;
+    font-family: personalfont;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+}
+.top2 p{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.top2 hr{
+    width: 12rem;
+}
